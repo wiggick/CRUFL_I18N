@@ -33,10 +33,11 @@ Run the provided Install.bat file with Administrator privileges.
 
 I used a hard coded JSON string for the test.  In production you could provide the JSON formatted key value pairs stored as CLOB's and retreive various translations as needed using  selection criteria based on your needs.
 ```
-Local StringVar json := "{'Translations' :[ {'Key':'Title','Value':'Los Estados Unidos de América'},{'Key':'Name','Value':'Nombre'}]}";
+Local StringVar json := "{'Translations' :[ {'Key':'Title','Value':'Los Estados Unidos de AmÃ©rica'},{'Key':'Name','Value':'Nombre'}]}";
+I18NTranslationGetTranslation( "Name", json )
 ```
 
-<img src="usage.png">
+<img src="https://github.com/wiggick/CRUFL_I18N/blob/master/usage.PNG">
 
 
 License
