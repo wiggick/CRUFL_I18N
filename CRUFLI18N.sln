@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUFL_I18N", "CRI18N\CRUFL_I18N.csproj", "{8BB96017-3637-482E-999A-434E55CA16DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10F2830C-D9FE-458D-AA59-787AA5D546E1}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.MD = README.MD
+		usage.PNG = usage.PNG
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestCRI18N", "UnitTestCRI18N\UnitTestCRI18N.csproj", "{EF97EDE4-811B-4970-B058-12355E9048AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB96017-3637-482E-999A-434E55CA16DE}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB96017-3637-482E-999A-434E55CA16DE}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{8BB96017-3637-482E-999A-434E55CA16DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB96017-3637-482E-999A-434E55CA16DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF97EDE4-811B-4970-B058-12355E9048AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF97EDE4-811B-4970-B058-12355E9048AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF97EDE4-811B-4970-B058-12355E9048AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF97EDE4-811B-4970-B058-12355E9048AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {045EF083-5357-4A36-AFFA-C2591CA5702B}
+	EndGlobalSection
+EndGlobal
